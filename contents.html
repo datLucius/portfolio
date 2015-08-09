@@ -1,9 +1,13 @@
 <div class="contents">
   <ul>
-    <li class="navTxt hvr-bounce-to-rightGreen">ABOUT</li>
-    <li class="navTxt hvr-bounce-to-rightGreen">WORK</li>
-    <li href="#resume" class="navTxt hvr-bounce-to-rightGreen">RESUME</li>
-    <li href="#contact" class="navTxt hvr-bounce-to-rightGreen">CONTACT</li>
+    <li class="navTxt hvr-bounce-to-rightGreen"  scroll-to="about"
+    container-id="custom-container-id" offset="50">ABOUT</li>
+    <li class="navTxt hvr-bounce-to-rightGreen"  scroll-to="work"
+    container-id="custom-container-id"  offset="50">WORK</li>
+    <li href="#resume" class="navTxt hvr-bounce-to-rightGreen"  scroll-to="resume"
+    container-id="custom-container-id"  offset="0">RESUME</li>
+    <li href="#contact" class="navTxt hvr-bounce-to-rightGreen"  scroll-to="contact"
+    container-id="custom-container-id"  offset="50">CONTACT</li>
   </ul>
 </div>
 
@@ -19,7 +23,7 @@
 
 <!-- about-->
 
-<div class="work">
+<div class="work" id="work">
   <div class="detailTxt hideThis">
     <div class="spokeImg col-md-4"></div>
     <div class="title col-md-4">funkSpoke</div>
@@ -67,9 +71,13 @@
 <div id="floating-nav-content">
      <span class="navName">LUCIUS</span>
      <ul class="navLinks">
-       <li>contact</li>
-       <li>resume</li>
-       <li>work</li>
-       <li>about</li>
+       <li scroll-to="contact"
+       container-id="custom-container-id"  offset="50">contact</li>
+       <li scroll-to="resume"
+       container-id="custom-container-id"  offset="0">resume</li>
+       <li scroll-to="work"
+       container-id="custom-container-id"  offset="50">work</li>
+       <li  scroll-to="about"
+       container-id="custom-container-id" offset="50">about</li>
      </ul>
  </div>

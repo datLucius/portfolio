@@ -3,6 +3,7 @@
     angular
     .module('portfolio', [
       'ngRoute',
+      'smoothScroll'
     ])
     .config(function ($routeProvider){
       $routeProvider
