@@ -16,7 +16,7 @@
 <div id="about">
   <div class="aboutSizer">
     <div class="aboutText2">CODE as ART</div>
-  <div class="aboutText">My skills were forged in the firey depths of Fine Art. Driven by an unquenchable urge to learn and create, I battled my way through the lands of Paint and Film. Now, harnessing all the skills I've aquired - the eye for detail, the love of teamwork, the determination to be push creativity - I am exploring Front End Development in all its glory.</div>
+  <div class="aboutText">My skills were forged in the firey depths of Fine Art. Driven by an unquenchable urge to learn and create, I traversed the kingdoms of Paint and Film. Now, harnessing all the skills I've aquired - the eye for detail, the love of teamwork, the determination to be push creativity - I am exploring Front End Development in all its glory.</div>
   <div class="aboutText2" id="secondTitle">Let's go</div>
   <div class="aboutText">I'm currently looking to join forces with a design-driven creative team that loves the process and quality of what they do.</div>
   </div>
@@ -25,27 +25,21 @@
 <!-- about-->
 
 <div class="work" id="work">
-  <div class="detailTxt hideThis">
-    <div class="spokeImg col-md-4"></div>
-    <div class="title col-md-4">funkSpoke</div>
-    <div class="tech">tech used: Javascript</div>
-    <div class="closeThis" ng-click="hideDetail()">close</div>
-  </div>
   <ul class="rowofWork">
     <li class="portfolioPiece" ng-click="showDetail()">
       <div class="spoke"></div>
       <div class="workText">YES YES Y'ALL</div>
     </li>
-    <li class="portfolioPiece">
+    <li class="portfolioPiece" ng-click="showIKDetail()">
       <div class="imK"></div>
       <div class="workText">IMMORAL KOMBAT</div>
     </li>
     <li class="portfolioPiece"></li>
-    <li class="portfolioPiece">
+    <li class="portfolioPiece" ng-click="showBDDetail()">
       <div class="bigD"></div>
       <div class="workText">L.H.W.Jr.</div>
     </li>
-    <li class="portfolioPiece">
+    <li class="portfolioPiece" ng-click="showdatArtDetail()">
       <div class="datArt"></div>
       <div class="workText">DAT ART THO</div>
     </li>
@@ -92,4 +86,51 @@
        <li  scroll-to="about"
        container-id="custom-container-id" offset="50">about</li>
      </ul>
+ </div>
+
+
+ <!-- Project Detail overlays-->
+
+ <div class="detailTxt hideThis">
+   <div class="spokeImg"></div>
+   <div class="centerText">
+     <div class="title">Yes Yes Y'all</div>
+     <div class="description">I love discovering the connectivity of hip hop. This interactive infographic shows the web of James Brown and P-Funk samples found in albums during the 'Golden Age' of hip hop.</div>
+     <div class="tech">tech used: Angular JS, Illustrator, Photoshop, SVG, JQuery, Spotify API, HTML, CSS</div>
+        <div class="closeThis fa fa-chevron-circle-left detailClose" ng-click="hideDetail()"></div>
+   </div>
+ </div>
+
+ <div class="imKDetail hideThis">
+   <div class="imkImg"></div>
+   <div class="centerText">
+     <div class="title">Immoral Kombat</div>
+     <div class="description">After a restless night of sleep, I awoke with the cryptic phrase ‘2 mini lizards’ stuck in my head. Hence, an Immortal Kombat style drinking game starring two small lizards was born.</div>
+     <div class="tech">tech used: Javascript, JQuery, Illustrator, Photoshop, HTML, CSS</div>
+        <div class="closeThis fa fa-chevron-circle-left detailClose" ng-click="hideIKDetail()"></div>
+   </div>
+ </div>
+
+ <div class="bigDDetail hideThis">
+   <div class="bigDImg"></div>
+   <div class="centerText">
+     <div class="title">Lucius Henry Weeks, Jr.</div>
+     <div class="description">My grandfather use to give me a pocket knife everytime he would visit. Overtime, I realized he was giving me his personality expressed via pocket knives. For his 80th birthday, I devoted 80 hours into painting his portrait alongside our knife collection.</div>
+     <div class="tech">awarded Best in Show @ <a href="http://www.charlestoncitypaper.com/charleston/young-contemporaries-highlights-cofcs-star-students/Content?oid=4599765" class="overlayLink">the Halsey's Young Contemporary Show 2013</a></div>
+        <div class="closeThis fa fa-chevron-circle-left detailClose" ng-click="hideBDDetail()"></div>
+   </div>
+ </div>
+
+ <div class="datArtDetail hideThis">
+   <div class="vidPlayer">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/OjCI1udajUs" frameborder="0" allowfullscreen class="centerThis"></iframe>
+   </div>
+   <div class="centerText">
+     <div class="title">Dat Art Tho</div>
+     <div class="description">In 2014, unsatisfied with the representation of my fellow artists, I organized a highly succesful group art show at King Dusko. Top video courtesy of Chap Fowler. I created the bottom video to promote the show.</div>
+        <div class="vidPlayer">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/SNJYbDC613s" frameborder="0" allowfullscreen></iframe>
+   </div>
+        <div class="closeThis fa fa-chevron-circle-left detailClose" ng-click="hidedatArtDetail()"></div>
+   </div>
  </div>

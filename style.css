@@ -206,21 +206,136 @@ a:hover {
 }
 
 .spokeImg {
-  background-color: red;
-  height: 300px;
-  width: 300px;
+  width: 400px;
+  height: 400px;
+  background: url(spoke.png);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  margin: 0 auto;
+  margin-top: 20px;
 }
+
+.imkImg {
+  width: 400px;
+  height: 400px;
+  background: url(immoralKombat.png);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  margin: 0 auto;
+  margin-top: 20px;}
+
+  .bigDImg {
+    width: 600px;
+    height: 400px;
+    background: url(bigDaddy.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 0 auto;
+    margin-top: 20px;}
 
 .detailTxt {
-  height: 350px;
   width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  color: white;
+  overflow: scroll;
 }
 
+.imKDetail {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 6;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  color: white;
+  overflow: scroll;
+}
+
+.bigDDetail {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 6;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  color: white;
+  overflow: scroll;
+}
+.datArtDetail {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 6;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  color: white;
+  overflow: scroll;
+}
+.detailClose {
+  font-size: 3em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  opacity: .7;
+  transition: .2s ease all;
+}
+.vidPlayer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.detailClose:hover {
+  opacity: 1;
+}
+.centerText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.projectInfo {
+  width: 80%;
+  text-align: center;
+  margin-top: 20px;
+}
+.detailInfo {
+  display: flex;
+  justify-content: space-around;
+  height: 40%;
+}
 .title {
   font-weight: 600;
-  width: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-
+.overlayLink {
+  color: #2ecc71;
+}
+.description {
+  width: 90%;
+  color: white;
+  padding: 20px;
+  font-size: 1.2em;
+}
+.tech {
+  font-size: 1.2em;
+  width: 80%;
+  text-align: center;
+}
 .navName {
   font-size: 2em;
   font-weight: 800;
