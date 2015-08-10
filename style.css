@@ -36,6 +36,8 @@ a:hover {
   font-weight: 800;
   font-size: 3em;
   color: black;
+  padding-left: 10px;
+    padding-right: 10px;
 }
 
 .navTxt:hover {
@@ -87,9 +89,9 @@ a:hover {
 }
 .name{
   font-weight: 800;
-  font-size: 5em;
+  font-size: 3em;
   color: black;
-  width: 55%;
+  width: 80%;
   text-align: center;
   position: relative;
 }
@@ -132,19 +134,19 @@ a:hover {
 
 .portfolioPiece {
   margin: 10px;
-  background-color: black;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 300px;
   height: 300px;
-  border-radius: 100%;
-  background-color: black;
-  transition: all 1s ease;
+  position: relative;
 }
 
-.portfolioPiece:hover {
-  border-radius: 0;
+.portfolioPiece:hover .workText{
+  opacity: 1;
 }
+
+
 
 .findMore {
   display: flex;
@@ -171,6 +173,10 @@ a:hover {
 
 .visHover:hover {
   color: #2ecc71;
+}
+
+.visHoverWhite:hover {
+  color: white;
 }
 
 
@@ -241,6 +247,7 @@ a:hover {
   color: white;
   opacity: .7;
   transition: .2s ease opacity;
+  margin: 10px;
 }
 .icon:hover {
   opacity: 1;
@@ -252,7 +259,7 @@ a:hover {
   margin-top: 12px;
 }
 .resumeLinks {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -319,3 +326,298 @@ a:hover {
   justify-content: center;
   flex-direction: column;
 }
+
+.datArt{
+  background: url(datArt.gif) no-repeat ;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+-webkit-filter: grayscale(0);
+ filter: grayscale(0);
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ border-radius: 100%;
+ transition: all 1s ease;
+ opacity: 1;
+}
+.datArt:hover {
+   border-radius: 0%;
+   -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: .2;
+}
+
+
+.bigD {
+  background: url(bigDaddy.jpg) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+opacity: 1;
+-webkit-filter: grayscale(0);
+ filter: grayscale(0);
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ border-radius: 100%;
+ transition: all 1s ease;
+ opacity: 1;
+}
+.bigD:hover {
+   border-radius: 0%;
+   -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: .2;
+}
+
+.nodeTitle {
+  color: black;
+  font-weight: 800;
+  font-size: 3em;
+
+}
+
+.text {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#websiteLink:hover {
+  color: #2ecc71;
+}
+
+.spoke {
+  background: url(spoke.png) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+opacity: 1;
+-webkit-filter: grayscale(0);
+ filter: grayscale(0);
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ border-radius: 100%;
+ transition: all 1s ease;
+ opacity: 1;
+}
+
+.spoke:hover {
+   border-radius: 0%;
+   -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: .2;
+}
+.imK {
+  background: url(immoralKombat.png) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+opacity: 1;
+-webkit-filter: grayscale(0);
+ filter: grayscale(0);
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ border-radius: 100%;
+ transition: all 1s ease;
+ opacity: 1;
+}
+.imK:hover {
+   border-radius: 0%;
+   -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: .2;
+}
+
+
+.workText {
+  color: #2ecc71;
+  margin: 0 auto;
+  font-size: 4em;
+  font-weight: 800;
+  z-index: -1;
+  opacity: 0;
+  transition: 1s all ease;
+  transition-delay: .5s;
+  text-align: center;
+}
+
+#secondTitle {
+  margin-top: 10px;
+}
+
+.resBackground {
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.resPage {
+  background-color: white;
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.resText {
+  margin-top: 20px;
+}
+
+.resTitle {
+  color: black;
+  font-size: 5em;
+  font-weight: 800;
+}
+
+.resSection {
+  color: #2ecc71;
+  font-weight: 800;
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.resTagLine {
+  margin-top: -8px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.resSectText {
+  margin-bottom: 10px;
+}
+
+.year {
+  font-weight: 100;
+  font-style: italic;
+  margin-left: 30px;
+}
+.resSectTextminor {
+  margin-top: -10px;
+  color: #474c4c;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.workPlace{
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.jobTitle {
+  font-weight: 500;
+}
+.resContactInfo {
+  font-size: 2em;
+  font-weight: 600;
+}
+.resContact {
+  font-size: 2em;
+  font-weight: 600;
+  color: #2ecc71;
+}
+
+.Award {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.awardTag {
+  font-weight: 100;
+  font-style: italic;
+  margin-left: 15px;
+}
+
+.awardText{
+  margin-bottom: 10px;
+}
+
+.Award2 {
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.resLink {
+  color: #2ecc71;
+}
+
+.resLink:hover {
+  background-color: black;
+}
+
+.workLink {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.flexContact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.headerLink {
+  margin-top: 3px;
+  font-size: 1.5em;
+}
+
+.skills {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.skillTitle {
+  font-weight: 100;
+  font-style: italic;
+}
+.backBtn {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  font-size: 3em;
+  color: black;
+  transition: .2s ease all;
+  opacity: .5;
+}
+.backBtn:hover {
+  color: #2ecc71;
+  opacity: 1;
+}
+
+.bottomBtn {
+  position: absolute;
+  right: 20px;
+  font-size: 2em;
+  color: black;
+  transition: .2s ease all;
+  opacity: .5;
+  bottom: 13px;
+}
+.bottomBtn:hover {
+  color: white;
+  opacity: 1;
+}
+.lessons {
+  color: #2ecc71;
+  opacity: .3;
+  font-weight: 800;
+  margin-left: 100px;
+}
+ @media only screen and (min-width : 500px) {
+   .name {
+     font-size: 5em;
+     width: 55%;
+   }
+ }

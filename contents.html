@@ -16,8 +16,9 @@
 <div id="about">
   <div class="aboutSizer">
     <div class="aboutText2">CODE as ART</div>
-  <div class="aboutText">"My skills were forged in the firey depths of Fine Art. Driven by an unquenchable urge to learn and create, I battled my way through the lands of Paint and Film. Harnessing all the skills I've aquired - the eye for detail, the love of teamwork, the determination to meet deadlines - I am exploring Front End Development in all its glory.</div>
-  <div class="aboutText">Currently, I'm at large, looking to join forces with a design-driven creative team that loves the process and quality of what they do"</div>
+  <div class="aboutText">My skills were forged in the firey depths of Fine Art. Driven by an unquenchable urge to learn and create, I battled my way through the lands of Paint and Film. Now, harnessing all the skills I've aquired - the eye for detail, the love of teamwork, the determination to be push creativity - I am exploring Front End Development in all its glory.</div>
+  <div class="aboutText2" id="secondTitle">Let's go</div>
+  <div class="aboutText">I'm currently looking to join forces with a design-driven creative team that loves the process and quality of what they do.</div>
   </div>
 </div>
 
@@ -31,13 +32,24 @@
     <div class="closeThis" ng-click="hideDetail()">close</div>
   </div>
   <ul class="rowofWork">
-    <li class="portfolioPiece hiphop" ng-click="showDetail()">
+    <li class="portfolioPiece" ng-click="showDetail()">
+      <div class="spoke"></div>
+      <div class="workText">YES YES Y'ALL</div>
+    </li>
+    <li class="portfolioPiece">
+      <div class="imK"></div>
+      <div class="workText">IMMORAL KOMBAT</div>
     </li>
     <li class="portfolioPiece"></li>
-    <li class="portfolioPiece"></li>
-    <li class="portfolioPiece"></li>
-    <li class="portfolioPiece"></li>
-    <li class="portfolioPiece"></li>
+    <li class="portfolioPiece">
+      <div class="bigD"></div>
+      <div class="workText">L.H.W.Jr.</div>
+    </li>
+    <li class="portfolioPiece">
+      <div class="datArt"></div>
+      <div class="workText">DAT ART THO</div>
+    </li>
+    <li class="portfolioPiece text">find more art @ <a href="http://jlnelsonart.com" id="websiteLink">jlnelsonart.com</a></li>
   </ul>
   </div>
 
@@ -49,7 +61,7 @@
       <span class="resumeText">resume</span>
   <div class="resumeBox">
     <div class="resumeLinks">
-      <div class="fa fa-file icon"><p class="webPdf">web</p></div>
+      <a href="#/resume"><div class="fa fa-file icon" ng-click=><p class="webPdf">web</p></div></a>
       <div class="fa fa-file-pdf-o icon"><p class="webPdf">pdf</p></div>
     </div>
   </div>

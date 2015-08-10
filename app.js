@@ -15,8 +15,8 @@
         templateUrl: 'contents.html',
         controller: 'MainController'
       })
-      .when('/main', {
-        templateUrl: 'main.html',
+      .when('/resume', {
+        templateUrl: 'resume.html',
         controller: 'MainController'
       })
       .when('/404', {
